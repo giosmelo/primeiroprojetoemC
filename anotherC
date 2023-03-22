@@ -1,0 +1,16 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    //para armazenar caracters 'char'
+   char nome[10];
+   printf("digite seu nome: ");
+   //%c para string, armazenar textos
+   scanf("%s", &nome);
+   printf("\n o seu nome é: %s", nome);
+   
+
+   
+    return 0;
+    
+}
