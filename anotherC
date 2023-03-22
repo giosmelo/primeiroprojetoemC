@@ -5,8 +5,10 @@ int main() {
     //para armazenar caracters 'char'
     //[para armazenar apenas 10 caracteres]
    char nome[10];
+   //printf mesma função que escreva no portugol
    printf("digite seu nome: ");
    //%c para string, armazenar textos
+   //scanf mesma função que leia
    scanf("%s", &nome);
    printf("\n o seu nome é: %s", nome);
    
