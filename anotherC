@@ -3,6 +3,7 @@
 
 int main() {
     //para armazenar caracters 'char'
+    //[para armazenar apenas 10 caracteres]
    char nome[10];
    printf("digite seu nome: ");
    //%c para string, armazenar textos
