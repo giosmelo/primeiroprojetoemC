@@ -1,0 +1,42 @@
+programa {
+  funcao inicio() {
+    inteiro idade, nascimento
+
+    escreva("digite o ano de nascimento: ")
+   leia (nascimento)
+
+   idade = 2023-nascimento
+
+   escreva("\nsua idade é: ", idade)
+
+   se (idade >= 18){
+    escreva("\nvocê é maior de dezoito.")
+   }senao{
+    escreva("\nvocê é menor que dezoito.")
+  }
+}
+
+
+
+
+pt2
+
+programa {
+  funcao inicio() {
+    inteiro idadeatual, nascimento, subtracao
+
+    escreva ("ola! qual a sua idade?")
+    escreva ("\ndigite sua idade: ")
+    leia(idadeatual)
+    escreva ("em que ano você nasceu?")
+    escreva("\ndigite o ano:")
+    leia (nascimento)
+
+    subtracao = idadeatual - nascimento
+     
+   se (subtracao <= 1999) {
+    escreva ("acesso permitido, você é maior de idade.")
+   }senao{
+    escreva("acesso negado, você é menor de idade.")
+   }
+  }
