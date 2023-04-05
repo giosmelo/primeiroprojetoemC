@@ -1,0 +1,65 @@
+programa {
+  funcao inicio() {
+    real nota1, nota2, media
+
+    escreva("\nDigite primeira nota: ")
+   leia(nota1)
+
+   escreva("\nDigite a segunda nota: ")
+   leia (nota2)
+   
+   media = (nota1+nota2) /2
+   se (media >= 6 ) {
+    escreva("\nVocê foi aprovado!")
+   } senao se{ (media >= 4 e media < 6){
+    escreva("\nVocê está de recuperação haahahaha")
+    } senao{
+      escreva("\nVocê foi reprovado!")
+    }
+   }
+
+  }
+  
+  --------------------------------------------------------------------------------
+  
+  programa {
+  funcao inicio() {
+
+ inteiro numero1, numero2, soma
+ //inteiro é usado para criar uma variavel
+ 
+ escreva ("\nhello world!")
+ // escreva é usado para exibir o texto na tela
+ escreva("\ndigite um numero: ")
+ leia (numero1)
+
+ numero1 = 2
+ 
+ escreva("\n digite um segundo numero: ")
+ leia(numero2)
+soma = numero1 + numero2 
+ //leia é usado para ler a variavel ou armazenar o valor dentro da variavel
+ //\n é usada para espaço no texto
+ escreva("\no numero digitado foi: ", soma)
+
+  }
+  
+  -------------------------------------------------------------------------------
+  programa {
+  funcao inicio() {
+    inteiro numero, resultado
+
+    escreva("digite um numero: ")
+    leia (numero)
+
+    resultado= numero % 2 
+    //% significa resto da divisão
+    se(resultado == 0){
+      //
+      escreva("o numero é par.")}
+    senao{
+      escreva("o numero é impar.")
+    }
+    }
+    }
+}
