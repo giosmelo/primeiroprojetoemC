@@ -1,0 +1,28 @@
+programa {
+  funcao inicio() {
+    inteiro numero
+
+    escreva ("Digite um numero: ")
+    leia(numero)
+
+    escolha (numero)
+    {
+      caso 1:
+      escreva ("Você digitou o numero 1.")
+      pare 
+      caso 2: 
+      escreva ("Você digitou o numero 2.")
+      pare
+      caso 3: 
+      escreva ("Você digitou o numero 3.")
+      pare
+      caso 4:
+      escreva ("Você digitou o numero 4.")
+      caso 5:
+      escreva ("Você digitou o numero 5.")
+      pare
+      caso contrario: 
+      escreva("Você digitou um numero inexistente. ")
+    }
+  }
+}
