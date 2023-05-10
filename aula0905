@@ -1,0 +1,36 @@
+
+#include <stdio.h>
+int subt(int x, int y)
+{
+    return x-y;
+}
+int main() {
+    int x, y;
+    printf("Digite seu primeiro número: ");
+    scanf("%d", &x);
+    printf("Digite seu segundo número: ");
+    scanf("%d", &y);
+    printf("O resultado da subtração é: %d ", subt(x,y));
+                    
+
+    return 0;
+}
+---------------------------------------------------------------
+#include <stdio.h>
+
+int soma(int x, int y)
+{
+    return x + y;
+}
+int main() {
+    int x, y;
+    
+    printf("digite o primeiro numero: ");
+    scanf ("%d", &x);
+    printf("digite o segundo numero: ");
+            scanf ("%d", &y);
+    
+    printf("o resultado da soma e: %d", soma(x, y));
+    
+    return 0;
+}
